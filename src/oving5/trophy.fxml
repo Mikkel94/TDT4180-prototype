@@ -40,7 +40,7 @@
                      <graphic>
                         <ImageView fx:id="newTrophy" fitHeight="180.0" fitWidth="140.0">
                            <image>
-                              <Image url="@Gold_Cup_Trophy_PNG_Clipart_Image.png" />
+                              <Image url="@trophy.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -49,7 +49,7 @@
                      <graphic>
                         <ImageView fx:id="newTrophy1" fitHeight="180.0" fitWidth="140.0">
                            <image>
-                              <Image url="@Gold_Cup_Trophy_PNG_Clipart_Image.png" />
+                              <Image url="@trophy.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -66,7 +66,7 @@
                      <graphic>
                         <ImageView fx:id="newTrophy11" fitHeight="180.0" fitWidth="140.0">
                            <image>
-                              <Image url="@Gold_Cup_Trophy_PNG_Clipart_Image.png" />
+                              <Image url="@trophy.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -75,7 +75,7 @@
                      <graphic>
                         <ImageView fx:id="newTrophy111" fitHeight="180.0" fitWidth="140.0">
                            <image>
-                              <Image url="@Gold_Cup_Trophy_PNG_Clipart_Image.png" />
+                              <Image url="@trophy.png" />
                            </image>
                         </ImageView>
                      </graphic>
