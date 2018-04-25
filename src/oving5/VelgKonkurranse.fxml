@@ -51,7 +51,7 @@
       </HBox>
       <HBox prefHeight="450.0" prefWidth="335.0">
          <children>
-            <ListView prefHeight="411.0" prefWidth="335.0" />
+            <ListView fx:id="listTable" prefHeight="411.0" prefWidth="335.0" />
          </children>
       </HBox>
       <Button fx:id="done" mnemonicParsing="false" onAction="#doneAction" text="Ferdig" />

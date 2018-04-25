@@ -23,6 +23,9 @@ public class MenuController {
 	}
 	
 	@FXML private void goKonkAction() {
+		if (Store.konk.length()>0){
+			loadFxml("VelgKonkurranse.fxml", true);
+		}
 		loadFxml("konk.fxml", true);
 	}
 	
