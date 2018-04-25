@@ -9,7 +9,6 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oving5.ProfilController">
    <children>
       <HBox prefHeight="50.0" prefWidth="335.0">
@@ -88,12 +87,12 @@
                   <Insets left="10.0" />
                </HBox.margin>
             </Label>
-            <Label text="Avansert">
+            <Label fx:id="txtNiva" text="">
                <HBox.margin>
                   <Insets left="20.0" />
                </HBox.margin>
             </Label>
-            <Button fx:id="btnNiva" mnemonicParsing="false" text="Bytt nivå">
+            <Button fx:id="btnNiva" mnemonicParsing="false" onAction="#byttNivaAction" text="Bytt nivå">
                <HBox.margin>
                   <Insets left="20.0" />
                </HBox.margin>
@@ -103,12 +102,12 @@
       <Line endX="235.0" startX="-100.0" />
       <HBox prefHeight="50.0" prefWidth="200.0">
          <children>
-            <Label text="Anonym:">
+            <Label fx:id="anon" text="">
                <HBox.margin>
                   <Insets left="10.0" />
                </HBox.margin>
             </Label>
-            <ToggleButton fx:id="btnAnonym" mnemonicParsing="false" text="ToggleButton">
+            <ToggleButton fx:id="btnAnonym" mnemonicParsing="false" onAction="#byttAnon" text="ToggleButton">
                <HBox.margin>
                   <Insets left="20.0" />
                </HBox.margin>
@@ -116,9 +115,9 @@
          </children>
       </HBox>
       <Line endX="235.0" startX="-100.0" />
-      <VBox alignment="TOP_CENTER" prefHeight="243.0" prefWidth="335.0">
+      <VBox fx:id="allTeamInvites" alignment="TOP_CENTER" prefHeight="243.0" prefWidth="335.0">
          <children>
-            <Label text="Invitasjon til lag">
+            <Label fx:id="invitations" text="Invitasjon til lag">
                <VBox.margin>
                   <Insets bottom="20.0" left="10.0" top="20.0" />
                </VBox.margin>
@@ -126,19 +125,19 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <HBox prefHeight="100.0" prefWidth="200.0">
+            <HBox fx:id="teamInvite" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label text="Eksempel Lag">
+                  <Label fx:id="lagnavn" text="Eksempel Lag">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Button fx:id="btnGodta" mnemonicParsing="false" text="Godta">
+                  <Button fx:id="btnGodta" mnemonicParsing="false" onAction="#godta" text="Godta">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="btnAvsla" mnemonicParsing="false" text="Avslå">
+                  <Button fx:id="btnAvsla" mnemonicParsing="false" onAction="#avslag" text="Avslå">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
