@@ -23,9 +23,11 @@ public class ProfilController extends MenuController {
     		txtNiva.setText(Store.level);
     		anon.setText("Anonym: " + String.valueOf(Store.isAnon));
     		if (Store.myTeam.length() > 0) {
-    			godta();
+    			teamInvite.getChildren().clear();
+        		invitations.setText("Du er med i lag: " + Store.myTeam);
     		} else if (!Store.isInvitedToTeam) {
-    			avslag();
+    			teamInvite.getChildren().clear();
+        		invitations.setText("Ingen laginvitasjoner :(");
     		}
     }
     
