@@ -19,7 +19,7 @@ public class MenuController {
 	}
 	
 	@FXML private void goProfileAction() {
-		loadFxml("profile.fxml", true);
+		loadFxml("Profil.fxml", true);
 	}
 	
 	@FXML private void goKonkAction() {
