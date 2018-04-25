@@ -1,4 +1,4 @@
-package øving5;
+package oving5;
 
 public class ProfileController extends MenuController {
 	

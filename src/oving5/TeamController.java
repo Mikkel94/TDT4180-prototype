@@ -1,4 +1,4 @@
-package øving5;
+package oving5;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
